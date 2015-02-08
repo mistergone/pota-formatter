@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>PotA Formatter</title>
+    <script src="pota-reformat.js"></script>
+    <style type="text/css">
+      #display-result {
+        padding: .5em 1em;
+        border: 5px dotted darkblue;
+        margin: 1em;
+        width: 60%;
+        height: 250px;
+        font-family: monospace;
+        white-space: pre;
+      }
+      #the-text {
+        padding: .5em 1em;
+        margin: 1em;
+        width: 60%;
+        height: 250px;
+      }
+      button {
+        display: block;
+        margin: 1em 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>PotAlert Reformatter</h1>
+    <p>Use me to reformat the PotAlert</p>
+
+    <textarea id="the-text"></textarea>
+    <button id="reformat">Reformat!</button>
+    <textarea id="display-result" disabled="disabled"></textarea>
+
+  </body>
+</html>
