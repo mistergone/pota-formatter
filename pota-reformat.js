@@ -8,8 +8,12 @@ function reformatIt() {
   content = title_case( content );
   content = content.replace(/\n!!!/g, "\n<li>");
   content = content.replace(/RPG\'s/gi, "RPGs");
+  content = content.replace(/mtg/gi, "MTG");
+  content = content.replace(/dcc/gi, "DCC");
+  content = content.replace(/fnm/gi, "FNM");
   content = content.replace(/sjg/gi, "SJG");
   content = content.replace(/Ehp/gi, "EHP");
+  content = content.replace(/d&d/gi, "D&D");
   content = content.replace("Events", "<h3>Events</h3>");
   content = content.replace("Card Games", "<h3>Card Games</h3>");
   content = content.replace("Boardgames", "<h3>Boardgames</h3>");
