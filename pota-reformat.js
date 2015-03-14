@@ -12,6 +12,7 @@ function reformatIt() {
   content = content.replace(/dcc/gi, "DCC");
   content = content.replace(/fnm/gi, "FNM");
   content = content.replace(/sjg/gi, "SJG");
+  content = content.replace(/ffg/gi, "FFG");
   content = content.replace(/Ehp/gi, "EHP");
   content = content.replace(/d&d/gi, "D&D");
   content = content.replace("Events", "<h3>Events</h3>");
@@ -29,6 +30,7 @@ function reformatIt() {
     }
   }
 
+  content += "<a href="https://groups.yahoo.com/neo/groups/potalert/info" target="_blank"><strong>Sign up to receive the PotAlert via email!</strong></a>"
   document.getElementById("display-result").innerHTML = content;
 
 };
