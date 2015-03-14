@@ -30,7 +30,7 @@ function reformatIt() {
     }
   }
 
-  content += "\n&nbsp;\n\n<a href="https://groups.yahoo.com/neo/groups/potalert/info" target="_blank"><strong>Sign up to receive the PotAlert via email!</strong></a>"
+  content += '\n&nbsp;\n\n<a href="https://groups.yahoo.com/neo/groups/potalert/info" target="_blank"><strong>Sign up to receive the PotAlert via email!</strong></a>';
   document.getElementById("display-result").innerHTML = content;
 
 };
