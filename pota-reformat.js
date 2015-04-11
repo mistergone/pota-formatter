@@ -3,10 +3,12 @@
 function reformatIt() {
   var content = document.getElementById("the-text").value,
       arr = [];
+
   content = content.replace(/\n---/g, "\n!!! ");
   content = content.replace(/---/g, " - ")
   content = title_case( content );
   content = content.replace(/\n!!!/g, "\n<li>");
+  content = content.replace(/\n>/g, "\n<li>");
   content = content.replace(/RPG\'s/gi, "RPGs");
   content = content.replace(/mtg/gi, "MTG");
   content = content.replace(/dcc/gi, "DCC");
