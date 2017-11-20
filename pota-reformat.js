@@ -18,7 +18,7 @@ function reformatIt() {
   content = content.replace(/Ehp/gi, "EHP");
   content = content.replace(/d&d/gi, "D&D");
   content = content.replace(/ccg\'s/gi, "CCGs");
-  content = content.replace(/lcg's/gi, "LCGs");
+  content = content.replace(/lcg\'s/gi, "LCGs");
   content = content.replace("Events", "<h3>Events</h3>");
   content = content.replace("Card Games", "<h3>Card Games</h3>");
   content = content.replace("Boardgames", "<h3>Boardgames</h3>");
